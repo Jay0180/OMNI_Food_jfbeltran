@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -24,6 +24,46 @@ html {
     line-height: 1.05;
     color: #333;
 }
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    text-decoration: none;
+    color: #c1121f;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.main-nav-link.cta:link,
+.main-nav-link.cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #c1121f;
+}
+
+.main-nav-link.cta:hover,
+.main-nav-link.cta:active {
+    background-color: #9a0e19
+}
+
+
 
 .hero-description {
     font-size: 2rem;
