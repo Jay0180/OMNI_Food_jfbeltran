@@ -66,6 +66,10 @@ header {
     letter-spacing: .75px;
 }
 
+/* logo */
+.logo {
+    height: 2.4rem;
+}
 
 /* Navigation */
 .main-nav-list {
@@ -178,12 +182,21 @@ header {
     margin-right: 1.6rem !important;
 }
 
-
-
-/* logo */
-.logo {
-    height: 2.4rem;
+/* featured section */
+.section-featured {
+    padding: 4.8rem 0;
 }
+
+
+.heading-featured {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
 
 
 /* content */
