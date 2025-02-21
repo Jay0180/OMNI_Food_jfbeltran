@@ -18,6 +18,16 @@ html {
     color: #555;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3d0d2;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+/*heading  */
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -57,6 +67,7 @@ html {
 }
 
 
+/* Navigation */
 .main-nav-list {
     list-style: none;
     display: flex;
@@ -96,7 +107,7 @@ html {
 }
 
 
-
+/* Hero content */
 
 .hero-description {
     font-size: 2rem;
@@ -124,6 +135,8 @@ html {
     padding: 4.8rem 0 9.6rem 0;
 }
 
+
+/* content button */
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -166,21 +179,14 @@ html {
 }
 
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f3d0d2;
-    height: 9.6rem;
-    padding: 0 4.8rem;
-}
 
+/* logo */
 .logo {
     height: 2.4rem;
 }
 
 
-
+/* content */
 
 .delivered-meals {
     display: flex;
@@ -217,7 +223,7 @@ header {
 }
 
 
-
+/* Css grid */
 .container {
     max-width: 120rem;
     padding: 0 3.2rem;
@@ -247,7 +253,7 @@ header {
     align-items: center;
 }
 
-
+/* img in css grid */
 .step-img-box {
     position: relative;
     display: flex;
